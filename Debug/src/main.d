@@ -1,3 +1,8 @@
-src/main.o: ../src/main.cpp ../src/engine.hpp
+src/main.o: ../src/main.cpp ../src/Engine.hpp ../src/EngineBase.hpp \
+ ../src/Stend.hpp
 
-../src/engine.hpp:
+../src/Engine.hpp:
+
+../src/EngineBase.hpp:
+
+../src/Stend.hpp:
